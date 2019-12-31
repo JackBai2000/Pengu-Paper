@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title> Pengu Paper</title>
+		<body>
+
+
+			<style>
+				body {
+					background-image: url("");
+        			background-repeat:no-repeat;
+       				background-size:cover;
+						} 
+						.image { 
+   position: relative; 
+   width: 100%; 
+}
+
+p{ 
+   position: absolute; 
+   top: 320px;
+   left: 300px; 
+   width: 100%; 
+}
+p2{ 
+   position: absolute; 
+   top: 380px;
+   left: 240px; 
+   width: 100%; 
+}
+
+form1{
+	position: absolute;
+	top: 430px;
+	left: 220px;
+	width: 100%;
+}
+form2{
+	position: absolute;
+	top: 460px;
+	left: 220px;
+	width: 100%;
+}
+form3{
+	position: absolute;
+	top: 490px;
+	left: 220px;
+	width: 100%;
+}
+form4{
+	position: absolute;
+	top: 520px;
+	left: 220px; 
+	width: 100%;
+}
+form5{
+	position: absolute;
+	top: 550px;
+	left: 220px;
+	width: 100%;
+}
+form6{
+	position: absolute;
+	top: 580px;
+	left: 220px;
+	width: 100%;
+}
+form7{
+	position: absolute;
+	top: 610px;
+	left: 220px;
+	width: 100%;
+}
+
+p3{
+	position: absolute;
+	top: 700px;
+	left: 220px;
+	width: 100%;
+}
+
+
+
+</style>
+			<div class = "image">
+				<img src = "PenguBackground.png" alt = "" />
+			</div>
+
+			<!--<h1> Pengu Paper </h1> !-->
+			<p> 
+				Hi I will be your helper Pengu for today! </p>
+				<p2>
+				I don't do much that you can't do yourself, but I believe in you!
+			</p2>
+			<label> </label>
+			<!-- Forms -->
+			<br>
+			<form1 action="" method="POST">
+				<input type= "text" name="sum1" placeholder="Summoner 1">
+				<input type="text" name="comp1"
+				placeholder="Enter Team Comp">
+				<label> Played? </label>
+			 <input onclick="button1()" type="button" style = "background-color: red;"
+			 value = "No" id = "match1"> </input>
+			 <label> Zephyr? </label>
+			 <input onclick ="zephyr1()" type = "button" style = "background-color: red;"
+			 value = "No" id = "zephyr1"> </input>
+			</form1>
+			
+			<form2 action="" method="POST">
+				<input type= "text" name="sum2" placeholder="Summoner 2">
+				<input type="text" name="comp2"
+				placeholder="Enter Team Comp">
+				<label> Played? </label>
+			 <input onclick="button2()" type="button" style = "background-color: red;"
+			 value = "No" id = "match2"> </input>
+			 <label> Zephyr? </label>
+			 <input onclick ="zephyr2()" type = "button" style = "background-color: red;"
+			 value = "No" id = "zephyr2"> </input>
+
+			</form2>
+
+			<form3 action="" method="POST">
+				<input type= "text" name="sum3" placeholder="Summoner 3">
+				<input type="text" name="comp3"
+				placeholder="Enter Team Comp">
+				<label> Played? </label>
+			 <input onclick="button3()" type="button" style = "background-color: red;"
+			 value = "No" id = "match3"> </input>
+			 <label> Zephyr? </label>
+			 <input onclick ="zephyr3()" type = "button" style = "background-color: red;"
+			 value = "No" id = "zephyr3"> </input>
+
+			</form3>
+
+			<form4 action="" method="POST">
+				<input type= "text" name="sum4" placeholder="Summoner 4">
+				<input type="text" name="comp4"
+				placeholder="Enter Team Comp">
+				<label> Played? </label>
+			 <input onclick="button4()" type="button" style = "background-color: red;"
+			 value = "No" id = "match4"> </input>
+			 <label> Zephyr? </label>
+			 <input onclick ="zephyr4()" type = "button" style = "background-color: red;"
+			 value = "No" id = "zephyr4"> </input>
+
+			</form4>
+
+
+			<form5 action="" method="POST">
+				<input type= "text" name="sum5" placeholder="Summoner 5">
+				<input type="text" name="comp5"
+				placeholder="Enter Team Comp">
+				<label> Played? </label>
+			 <input onclick="button5()" type="button" style = "background-color: red;"
+			 value = "No" id = "match5"> </input>
+			 <label> Zephyr? </label>
+			 <input onclick ="zephyr5()" type = "button" style = "background-color: red;"
+			 value = "No" id = "zephyr5"> </input>
+
+			</form5>
+
+
+			<form6 action="" method="POST">
+				<input type= "text" name="sum6" placeholder="Summoner 6">
+				<input type="text" name="comp6"
+				placeholder="Enter Team Comp">
+			<label> Played? </label>
+			 <input onclick="button6()" type="button" style = "background-color: red;"
+			 value = "No" id = "match6"> </input>
+			 <label> Zephyr? </label>
+			 <input onclick ="zephyr6()" type = "button" style = "background-color: red;"
+			 value = "No" id = "zephyr6"> </input>
+
+			</form6>
+
+
+			<form7 action="" method="POST">
+				<input type= "text" name="sum7" placeholder="Summoner 7">
+				<input type="text" name="comp7"
+				placeholder="Enter Team Comp">
+			<label> Played? </label>
+			 <input onclick="button7()" type="button" style = "background-color: red;"
+			 value = "No" id = "match7"> </input>
+			 <label> Zephyr? </label>
+			 <input onclick ="zephyr7()" type = "button" style = "background-color: red;"
+			 value = "No" id = "zephyr7"> </input>
+
+			</form7>
+
+			<p3>
+
+			<label> Extra Notes! </label>
+			<br> 
+			<textarea rows = "4" cols = "75" name = "extra" placeholder="Example: I hate blenders take all the spatulas on carousel" > </textarea>
+			<br>
+			</p3>
+
+</h2>
+
+	<script>
+      function button1() {
+      		var button = document.getElementById("match1");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      	}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      			foughtAll();
+      		}
+
+      }
+      function zephyr1() {
+      		var button = document.getElementById("zephyr1");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      		}
+
+      }
+      function button2() {
+      		var button = document.getElementById("match2");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      			foughtAll();
+      		}
+
+      }
+      function zephyr2() {
+      		var button = document.getElementById("zephyr2");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      		}
+
+      }
+      function button3() {
+      		var button = document.getElementById("match3");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      			foughtAll();
+      		}
+
+      }
+      function zephyr3() {
+      		var button = document.getElementById("zephyr3");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      		}
+
+      }
+      function button4() {
+      		var button = document.getElementById("match4");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      			foughtall();
+      		}
+
+      }
+      function zephyr4() {
+      		var button = document.getElementById("zephyr4");
+      		if (button.value == "Yes"){
+      		 button.value = "No";
+      		 button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      		}
+
+      }
+      function button5() {
+      		var button = document.getElementById("match5");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      			foughtAll();
+      		}
+
+      }
+      function zephyr5() {
+      		var button = document.getElementById("zephyr5");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      		}
+
+      }
+      function button6() {
+      		var button = document.getElementById("match6");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      			foughtAll();
+      		}
+
+      }
+      function zephyr6() {
+      		var button = document.getElementById("zephyr6");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      		}
+
+      }
+      function button7() {
+      		var button = document.getElementById("match7");
+      		if (button.value == "Yes"){ 
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      			foughtAll();
+      		}
+
+      }
+      function zephyr7() {
+      		var button = document.getElementById("zephyr7");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      		}
+
+      }
+      function foughtAll(){
+      	var bool1 = document.getElementById("match1");
+      	var bool2 = document.getElementById("match2");
+      	var bool3 = document.getElementById("match3");
+      	var bool4 = document.getElementById("match4");
+      	var bool5 = document.getElementById("match5");
+      	var bool6 = document.getElementById("match6");
+      	var bool7 = document.getElementById("match7");
+      	if ("Yes" == bool1.value && bool1.value == bool2.value && bool2.value == bool3.value && bool3.value == bool4.value && bool4.value == bool5.value && bool5.value == bool6.value && bool6.value == bool7.value){
+      		button1();
+      		button2();
+      		button3();
+      		button4();
+      		button5();
+      		button6();
+      		button7();
+      	}
+      }
+
+
+
+
+
+
+
+
+  </script>
+		</body>
+	</head>
+</html>
