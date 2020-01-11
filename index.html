@@ -81,6 +81,58 @@ p3{
 	width: 100%;
 }
 
+hider1{
+	position: absolute;
+	top: 430px;
+	left: 680px;
+	width: 100%;
+}
+
+hider2{
+	position: absolute;
+	top: 460px;
+	left: 680px;
+	width: 100%;
+}
+
+
+hider3{
+	position: absolute;
+	top: 490px;
+	left: 680px;
+	width: 100%;
+}
+
+
+hider4{
+	position: absolute;
+	top: 520px;
+	left: 680px;
+	width: 100%;
+}
+
+
+hider5{
+	position: absolute;
+	top: 550px;
+	left: 680px;
+	width: 100%;
+}
+
+
+hider6{
+	position: absolute;
+	top: 580px;
+	left: 680px;
+	width: 100%;
+}
+
+hider7{
+	position: absolute;
+	top: 610px;
+	left: 680px;
+	width: 100%;
+}
 
 
 </style>
@@ -95,100 +147,116 @@ p3{
 				I don't do much that you can't do yourself, but I believe in you!
 			</p2>
 			<label> </label>
-			<!-- Forms -->
 			<br>
+
 			<form1 action="" method="POST">
+				<div id = "hide1"> 
 				<input type= "text" name="sum1" placeholder="Summoner 1">
 				<input type="text" name="comp1"
 				placeholder="Enter Team Comp">
-				<label> Played? </label>
-			 <input onclick="button1()" type="button" style = "background-color: red;"
-			 value = "No" id = "match1"> </input>
 			 <label> Zephyr? </label>
 			 <input onclick ="zephyr1()" type = "button" style = "background-color: red;"
-			 value = "No" id = "zephyr1"> </input>
-			</form1>
+			 value = "No" id = "zephyr1"> </input>			 
+			 </div>
+			</form1>	
+		
+			<hider1>
+			<input onclick ="hide1()" type = "button" value = "Hide" id = hideButton1> </input>
+			</hider1>
 			
 			<form2 action="" method="POST">
+				<div id = "hide2">
 				<input type= "text" name="sum2" placeholder="Summoner 2">
 				<input type="text" name="comp2"
 				placeholder="Enter Team Comp">
-				<label> Played? </label>
-			 <input onclick="button2()" type="button" style = "background-color: red;"
-			 value = "No" id = "match2"> </input>
 			 <label> Zephyr? </label>
 			 <input onclick ="zephyr2()" type = "button" style = "background-color: red;"
 			 value = "No" id = "zephyr2"> </input>
-
+			</div>
 			</form2>
 
+			<hider2>
+			<input onclick ="hide2()" type = "button" value = "Hide" id = hideButton2> </input>
+			</hider2>
+
 			<form3 action="" method="POST">
+				<div id = "hide3">
 				<input type= "text" name="sum3" placeholder="Summoner 3">
 				<input type="text" name="comp3"
 				placeholder="Enter Team Comp">
-				<label> Played? </label>
-			 <input onclick="button3()" type="button" style = "background-color: red;"
-			 value = "No" id = "match3"> </input>
 			 <label> Zephyr? </label>
 			 <input onclick ="zephyr3()" type = "button" style = "background-color: red;"
 			 value = "No" id = "zephyr3"> </input>
+			</div>
 
 			</form3>
 
+			<hider3>
+			<input onclick ="hide3()" type = "button" value = "Hide" id = hideButton3> </input>
+			</hider3>
+
 			<form4 action="" method="POST">
+				<div id = "hide4">
 				<input type= "text" name="sum4" placeholder="Summoner 4">
 				<input type="text" name="comp4"
 				placeholder="Enter Team Comp">
-				<label> Played? </label>
-			 <input onclick="button4()" type="button" style = "background-color: red;"
-			 value = "No" id = "match4"> </input>
 			 <label> Zephyr? </label>
 			 <input onclick ="zephyr4()" type = "button" style = "background-color: red;"
 			 value = "No" id = "zephyr4"> </input>
-
+			</div>
 			</form4>
+
+			<hider4>
+			<input onclick ="hide4()" type = "button" value = "Hide" id = hideButton4> </input>
+			</hider4>
 
 
 			<form5 action="" method="POST">
+				<div id = "hide5">
 				<input type= "text" name="sum5" placeholder="Summoner 5">
 				<input type="text" name="comp5"
 				placeholder="Enter Team Comp">
-				<label> Played? </label>
-			 <input onclick="button5()" type="button" style = "background-color: red;"
-			 value = "No" id = "match5"> </input>
 			 <label> Zephyr? </label>
 			 <input onclick ="zephyr5()" type = "button" style = "background-color: red;"
 			 value = "No" id = "zephyr5"> </input>
-
+			</div>
 			</form5>
+
+			<hider5>
+			<input onclick ="hide5()" type = "button" value = "Hide" id = hideButton5> </input>
+			</hider5>
 
 
 			<form6 action="" method="POST">
+				<div id = "hide6">
 				<input type= "text" name="sum6" placeholder="Summoner 6">
 				<input type="text" name="comp6"
 				placeholder="Enter Team Comp">
-			<label> Played? </label>
-			 <input onclick="button6()" type="button" style = "background-color: red;"
-			 value = "No" id = "match6"> </input>
 			 <label> Zephyr? </label>
 			 <input onclick ="zephyr6()" type = "button" style = "background-color: red;"
 			 value = "No" id = "zephyr6"> </input>
-
+			</div>
 			</form6>
+
+			<hider6>
+			<input onclick ="hide6()" type = "button" value = "Hide" id = hideButton6> </input>
+			</hider6>
 
 
 			<form7 action="" method="POST">
+				<div id = "hide7">
 				<input type= "text" name="sum7" placeholder="Summoner 7">
 				<input type="text" name="comp7"
 				placeholder="Enter Team Comp">
-			<label> Played? </label>
-			 <input onclick="button7()" type="button" style = "background-color: red;"
-			 value = "No" id = "match7"> </input>
 			 <label> Zephyr? </label>
 			 <input onclick ="zephyr7()" type = "button" style = "background-color: red;"
 			 value = "No" id = "zephyr7"> </input>
-
+			</div>
 			</form7>
+
+			<hider7>
+			<input onclick ="hide7()" type = "button" value = "Hide" id = hideButton7> </input>
+			</hider7>
 
 			<p3>
 
@@ -226,6 +294,108 @@ p3{
       		}
 
       }
+
+      function hide1(){
+      	 var summoner1Info = document.getElementById("hide1");
+      	 var hide1Button = document.getElementById("hideButton1");
+  			if (summoner1Info.style.display === "none") {
+    			summoner1Info.style.display = "block";
+    			hide1Button.value = "Hide";
+  				} 
+  			else 
+  				{
+    			summoner1Info.style.display = "none";
+    			hide1Button.value = "Unhide";
+  				}
+      }
+
+     function hide2(){
+      	 var summoner2Info = document.getElementById("hide2");
+      	 var hide2Button = document.getElementById("hideButton2");
+  			if (summoner2Info.style.display === "none") {
+    			summoner2Info.style.display = "block";
+    			hide2Button.value = "Hide";
+  				} 
+  			else 
+  				{
+    			summoner2Info.style.display = "none";
+    			hide2Button.value = "Unhide";
+  				}
+      }
+
+     function hide3(){
+      	 var summoner3Info = document.getElementById("hide3");
+      	 var hide3Button = document.getElementById("hideButton3");
+  			if (summoner3Info.style.display === "none") {
+    			summoner3Info.style.display = "block";
+    			hide3Button.value = "Hide";
+  				} 
+  			else 
+  				{
+    			summoner3Info.style.display = "none";
+    			hide3Button.value = "Unhide";
+  				}
+      }
+
+     function hide4(){
+      	 var summoner4Info = document.getElementById("hide4");
+      	 var hide4Button = document.getElementById("hideButton4");
+  			if (summoner4Info.style.display === "none") {
+    			summoner4Info.style.display = "block";
+    			hide4Button.value = "Hide";
+  				} 
+  			else 
+  				{
+    			summoner4Info.style.display = "none";
+    			hide4Button.value = "Unhide";
+  				}
+      }
+
+     function hide5(){
+      	 var summoner5Info = document.getElementById("hide5");
+      	 var hide5Button = document.getElementById("hideButton5");
+  			if (summoner5Info.style.display === "none") {
+    			summoner5Info.style.display = "block";
+    			hide5Button.value = "Hide";
+  				} 
+  			else 
+  				{
+    			summoner5Info.style.display = "none";
+    			hide5Button.value = "Unhide";
+  				}
+      }
+
+     function hide6(){
+      	 var summoner6Info = document.getElementById("hide6");
+      	 var hide6Button = document.getElementById("hideButton6");
+  			if (summoner6Info.style.display === "none") {
+    			summoner6Info.style.display = "block";
+    			hide6Button.value = "Hide";
+  				} 
+  			else 
+  				{
+    			summoner6Info.style.display = "none";
+    			hide6Button.value = "Unhide";
+  				}
+      }
+
+     function hide7(){
+      	 var summoner7Info = document.getElementById("hide7");
+      	 var hide7Button = document.getElementById("hideButton7");
+  			if (summoner7Info.style.display === "none") {
+    			summoner7Info.style.display = "block";
+    			hide7Button.value = "Hide";
+  				} 
+  			else 
+  				{
+    			summoner7Info.style.display = "none";
+    			hide7Button.value = "Unhide";
+  				}
+      }
+
+
+
+
       function button2() {
       		var button = document.getElementById("match2");
       		if (button.value == "Yes") {
@@ -375,24 +545,6 @@ p3{
       			button.style.background = '#00ff00';
       		}
 
-      }
-      function foughtAll(){
-      	var bool1 = document.getElementById("match1");
-      	var bool2 = document.getElementById("match2");
-      	var bool3 = document.getElementById("match3");
-      	var bool4 = document.getElementById("match4");
-      	var bool5 = document.getElementById("match5");
-      	var bool6 = document.getElementById("match6");
-      	var bool7 = document.getElementById("match7");
-      	if ("Yes" == bool1.value && bool1.value == bool2.value && bool2.value == bool3.value && bool3.value == bool4.value && bool4.value == bool5.value && bool5.value == bool6.value && bool6.value == bool7.value){
-      		button1();
-      		button2();
-      		button3();
-      		button4();
-      		button5();
-      		button6();
-      		button7();
-      	}
       }
 
 
