@@ -140,7 +140,7 @@ hider7{
 				<img src = "PenguBackground.png" alt = "" />
 			</div>
 
-			<!--<h1> Pengu Paper </h1> !-->
+			<!--Main Text displayed for the scroll!-->
 			<p> 
 				Hi I will be your helper Pengu for today! </p>
 				<p2>
@@ -148,6 +148,10 @@ hider7{
 			</p2>
 			<label> </label>
 			<br>
+
+
+
+			<!--  Section that contains the elements for Summoner 1 -->
 
 			<form1 action="" method="POST">
 				<div id = "hide1"> 
@@ -163,6 +167,9 @@ hider7{
 			<hider1>
 			<input onclick ="hide1()" type = "button" value = "Hide" id = hideButton1> </input>
 			</hider1>
+
+
+			<!--  Section that contains the elements for Summoner 2 -->
 			
 			<form2 action="" method="POST">
 				<div id = "hide2">
@@ -178,6 +185,9 @@ hider7{
 			<hider2>
 			<input onclick ="hide2()" type = "button" value = "Hide" id = hideButton2> </input>
 			</hider2>
+
+
+			<!--  Section that contains the elements for Summoner 3 -->
 
 			<form3 action="" method="POST">
 				<div id = "hide3">
@@ -195,6 +205,9 @@ hider7{
 			<input onclick ="hide3()" type = "button" value = "Hide" id = hideButton3> </input>
 			</hider3>
 
+
+			<!--  Section that contains the elements for Summoner 4 -->
+
 			<form4 action="" method="POST">
 				<div id = "hide4">
 				<input type= "text" name="sum4" placeholder="Summoner 4">
@@ -206,9 +219,14 @@ hider7{
 			</div>
 			</form4>
 
+
+
 			<hider4>
 			<input onclick ="hide4()" type = "button" value = "Hide" id = hideButton4> </input>
 			</hider4>
+
+
+			<!--  Section that contains the elements for Summoner 5 -->
 
 
 			<form5 action="" method="POST">
@@ -226,6 +244,7 @@ hider7{
 			<input onclick ="hide5()" type = "button" value = "Hide" id = hideButton5> </input>
 			</hider5>
 
+			<!--  Section that contains the elements for Summoner 6 -->
 
 			<form6 action="" method="POST">
 				<div id = "hide6">
@@ -243,6 +262,8 @@ hider7{
 			</hider6>
 
 
+			<!--  Section that contains the elements for Summoner 7 -->
+
 			<form7 action="" method="POST">
 				<div id = "hide7">
 				<input type= "text" name="sum7" placeholder="Summoner 7">
@@ -258,6 +279,9 @@ hider7{
 			<input onclick ="hide7()" type = "button" value = "Hide" id = hideButton7> </input>
 			</hider7>
 
+
+			<!--  Section to display the extra box for information -->
+
 			<p3>
 
 			<label> Extra Notes! </label>
@@ -268,20 +292,16 @@ hider7{
 
 </h2>
 
-	<script>
-      function button1() {
-      		var button = document.getElementById("match1");
-      		if (button.value == "Yes") {
-      			button.value = "No";
-      			button.style.background = '#ff0000';
-      	}
-      		else {
-      			button.value = "Yes";
-      			button.style.background = '#00ff00';
-      			foughtAll();
-      		}
 
-      }
+
+<!--  Hi there coder/reader, this section is the JavaScript that handles all the buttons and events, currently just zephyr and hide! -->
+
+
+	
+	<script>
+
+		//Buttons for Summoner 1
+
       function zephyr1() {
       		var button = document.getElementById("zephyr1");
       		if (button.value == "Yes") {
@@ -309,7 +329,26 @@ hider7{
   				}
       }
 
-     function hide2(){
+
+
+
+      //Buttons for Summoner 2
+
+      function zephyr2() {
+      		var button = document.getElementById("zephyr2");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      		}
+
+      }
+
+
+    function hide2(){
       	 var summoner2Info = document.getElementById("hide2");
       	 var hide2Button = document.getElementById("hideButton2");
   			if (summoner2Info.style.display === "none") {
@@ -323,7 +362,23 @@ hider7{
   				}
       }
 
-     function hide3(){
+      //Buttons for Summoner 3
+
+      function zephyr3() {
+      		var button = document.getElementById("zephyr3");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      		}
+
+      }
+
+
+           function hide3(){
       	 var summoner3Info = document.getElementById("hide3");
       	 var hide3Button = document.getElementById("hideButton3");
   			if (summoner3Info.style.display === "none") {
@@ -336,6 +391,23 @@ hider7{
     			hide3Button.value = "Unhide";
   				}
       }
+
+
+      //Buttons for Summoner 4
+
+      function zephyr4() {
+      		var button = document.getElementById("zephyr4");
+      		if (button.value == "Yes"){
+      		 button.value = "No";
+      		 button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      		}
+
+      }
+
 
      function hide4(){
       	 var summoner4Info = document.getElementById("hide4");
@@ -351,6 +423,24 @@ hider7{
   				}
       }
 
+
+
+      //Buttons for Summoner 5
+      function zephyr5() {
+      		var button = document.getElementById("zephyr5");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      		}
+
+      }
+
+
+
      function hide5(){
       	 var summoner5Info = document.getElementById("hide5");
       	 var hide5Button = document.getElementById("hideButton5");
@@ -364,6 +454,24 @@ hider7{
     			hide5Button.value = "Unhide";
   				}
       }
+
+
+      //Buttons for Summoner 6
+
+
+      function zephyr6() {
+      		var button = document.getElementById("zephyr6");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      		}
+
+      }
+
 
      function hide6(){
       	 var summoner6Info = document.getElementById("hide6");
@@ -379,6 +487,21 @@ hider7{
   				}
       }
 
+      //Buttons for Summoner 7
+      function zephyr7() {
+      		var button = document.getElementById("zephyr7");
+      		if (button.value == "Yes") {
+      			button.value = "No";
+      			button.style.background = '#ff0000';
+      		}
+      		else {
+      			button.value = "Yes";
+      			button.style.background = '#00ff00';
+      		}
+
+      }
+
+
      function hide7(){
       	 var summoner7Info = document.getElementById("hide7");
       	 var hide7Button = document.getElementById("hideButton7");
@@ -391,160 +514,6 @@ hider7{
     			summoner7Info.style.display = "none";
     			hide7Button.value = "Unhide";
   				}
-      }
-
-
-
-
-      function button2() {
-      		var button = document.getElementById("match2");
-      		if (button.value == "Yes") {
-      			button.value = "No";
-      			button.style.background = '#ff0000';
-      		}
-      		else {
-      			button.value = "Yes";
-      			button.style.background = '#00ff00';
-      			foughtAll();
-      		}
-
-      }
-      function zephyr2() {
-      		var button = document.getElementById("zephyr2");
-      		if (button.value == "Yes") {
-      			button.value = "No";
-      			button.style.background = '#ff0000';
-      		}
-      		else {
-      			button.value = "Yes";
-      			button.style.background = '#00ff00';
-      		}
-
-      }
-      function button3() {
-      		var button = document.getElementById("match3");
-      		if (button.value == "Yes") {
-      			button.value = "No";
-      			button.style.background = '#ff0000';
-      		}
-      		else {
-      			button.value = "Yes";
-      			button.style.background = '#00ff00';
-      			foughtAll();
-      		}
-
-      }
-      function zephyr3() {
-      		var button = document.getElementById("zephyr3");
-      		if (button.value == "Yes") {
-      			button.value = "No";
-      			button.style.background = '#ff0000';
-      		}
-      		else {
-      			button.value = "Yes";
-      			button.style.background = '#00ff00';
-      		}
-
-      }
-      function button4() {
-      		var button = document.getElementById("match4");
-      		if (button.value == "Yes") {
-      			button.value = "No";
-      			button.style.background = '#ff0000';
-      		}
-      		else {
-      			button.value = "Yes";
-      			button.style.background = '#00ff00';
-      			foughtAll();
-      		}
-
-      }
-      function zephyr4() {
-      		var button = document.getElementById("zephyr4");
-      		if (button.value == "Yes"){
-      		 button.value = "No";
-      		 button.style.background = '#ff0000';
-      		}
-      		else {
-      			button.value = "Yes";
-      			button.style.background = '#00ff00';
-      		}
-
-      }
-      function button5() {
-      		var button = document.getElementById("match5");
-      		if (button.value == "Yes") {
-      			button.value = "No";
-      			button.style.background = '#ff0000';
-      		}
-      		else {
-      			button.value = "Yes";
-      			button.style.background = '#00ff00';
-      			foughtAll();
-      		}
-
-      }
-      function zephyr5() {
-      		var button = document.getElementById("zephyr5");
-      		if (button.value == "Yes") {
-      			button.value = "No";
-      			button.style.background = '#ff0000';
-      		}
-      		else {
-      			button.value = "Yes";
-      			button.style.background = '#00ff00';
-      		}
-
-      }
-      function button6() {
-      		var button = document.getElementById("match6");
-      		if (button.value == "Yes") {
-      			button.value = "No";
-      			button.style.background = '#ff0000';
-      		}
-      		else {
-      			button.value = "Yes";
-      			button.style.background = '#00ff00';
-      			foughtAll();
-      		}
-
-      }
-      function zephyr6() {
-      		var button = document.getElementById("zephyr6");
-      		if (button.value == "Yes") {
-      			button.value = "No";
-      			button.style.background = '#ff0000';
-      		}
-      		else {
-      			button.value = "Yes";
-      			button.style.background = '#00ff00';
-      		}
-
-      }
-      function button7() {
-      		var button = document.getElementById("match7");
-      		if (button.value == "Yes"){ 
-      			button.value = "No";
-      			button.style.background = '#ff0000';
-      		}
-      		else {
-      			button.value = "Yes";
-      			button.style.background = '#00ff00';
-      			foughtAll();
-      		}
-
-      }
-      function zephyr7() {
-      		var button = document.getElementById("zephyr7");
-      		if (button.value == "Yes") {
-      			button.value = "No";
-      			button.style.background = '#ff0000';
-      		}
-      		else {
-      			button.value = "Yes";
-      			button.style.background = '#00ff00';
-      		}
-
       }
 
 
