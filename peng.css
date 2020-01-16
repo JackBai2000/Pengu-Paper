@@ -1,0 +1,139 @@
+body {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+}
+
+p {
+    position: absolute;
+    top: 320px;
+    left: 330px;
+    width: 100%;
+    font-family: Georgia, serif;
+}
+
+p2 {
+    position: absolute;
+    top: 380px;
+    left: 240px;
+    width: 100%;
+    font-family: Georgia, serif;
+}
+
+form1 {
+    position: absolute;
+    top: 430px;
+    left: 220px;
+    width: 100%;
+    font-family: Georgia, serif;
+}
+
+form2 {
+    position: absolute;
+    top: 460px;
+    left: 220px;
+    width: 100%;
+    font-family: Georgia, serif;
+}
+
+form3 {
+    position: absolute;
+    top: 490px;
+    left: 220px;
+    width: 100%;
+    font-family: Georgia, serif;
+}
+
+form4 {
+    position: absolute;
+    top: 520px;
+    left: 220px;
+    width: 100%;
+    font-family: Georgia, serif;
+}
+
+form5 {
+    position: absolute;
+    top: 550px;
+    left: 220px;
+    width: 100%;
+    font-family: Georgia, serif;
+}
+
+form6 {
+    position: absolute;
+    top: 580px;
+    left: 220px;
+    width: 100%;
+    font-family: Georgia, serif;
+}
+
+form7 {
+    position: absolute;
+    top: 610px;
+    left: 220px;
+    width: 100%;
+    font-family: Georgia, serif;
+}
+
+p3 {
+    position: absolute;
+    top: 700px;
+    left: 220px;
+    width: 100%;
+    font-family: Georgia, serif;
+}
+
+hider1 {
+    position: absolute;
+    top: 430px;
+    left: 680px;
+    width: 100%;
+}
+
+hider2 {
+    position: absolute;
+    top: 460px;
+    left: 680px;
+    width: 100%;
+}
+
+hider3 {
+    position: absolute;
+    top: 490px;
+    left: 680px;
+    width: 100%;
+}
+
+hider4 {
+    position: absolute;
+    top: 520px;
+    left: 680px;
+    width: 100%;
+}
+
+hider5 {
+    position: absolute;
+    top: 550px;
+    left: 680px;
+    width: 100%;
+}
+
+hider6 {
+    position: absolute;
+    top: 580px;
+    left: 680px;
+    width: 100%;
+}
+
+hider7 {
+    position: absolute;
+    top: 610px;
+    left: 680px;
+    width: 100%;
+}
